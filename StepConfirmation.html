@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USA Funding Applications</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Additional custom styles */
+        .footer_item {
+            margin-bottom: 10px;
+        }
+
+        .footer__legal {
+            margin-top: 20px;
+        }
+
+        .footer__legal__copyright,
+        .footer__legal__disclaimer {
+            font-size: 12px;
+            margin-bottom: 5px;
+        }
+
+        .hero-section {
+            background-image: url('images/backg1.png');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .featured-categories .box {
+            background-color: #f0f0f0;
+        }
+
+        .custom-section {
+            background-color: #3C3B6E;
+            color: #ffffff;
+        }
+
+        .error-message {
+            color: red;
+            font-size: 0.875rem;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+    <header class="bg-white text-gray-900 p-4 flex justify-between items-center shadow-md">
+        <div class="flex items-center">
+            <img src="images/logo.png" alt="Logo" class="h-10 mr-4">
+        </div>
+        <a href="Login Page.html" class="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">Member Login</a>
+    </header>
+
+    <div id="content" class="site-content">
+        <div class="hero-section bg-cover bg-center py-20">
+            <!-- Hero content goes here -->
+            <div class="container mx-auto text-center text-white">
+                <h1 class="text-2xl font-bold mb-4">USA Funding Applications Order Form</h1>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="max-w-4xl mx-auto px-4 py-8">
+            <h2 class="text-3xl font-bold mb-8 text-center">Step 2 of 3: Confirm Your Answers and Complete Registration</h2>
+
+            <!-- Personal Information Summary -->
+            <div class="bg-white shadow rounded-lg mb-8 overflow-hidden">
+                <div class="px-6 py-4">
+                    <h3 class="text-lg font-bold mb-2">Personal Information Summary</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="mb-4">
+                            <p class="text-sm text-gray-600 font-bold">First Name:</p>
+                            <p class="text-lg">John</p>
+                        </div>
+                        <div class="mb-4">
+                            <p class="text-sm text-gray-600 font-bold">Last Name:</p>
+                            <p class="text-lg">Doe</p>
+                        </div>
+                        <div class="mb-4">
+                            <p class="text-sm text-gray-600 font-bold">Street Address:</p>
+                            <p class="text-lg">123 Main St</p>
+                        </div>
+                        <div class="mb-4">
+                            <p class="text-sm text-gray-600 font-bold">Zip:</p>
+                            <p class="text-lg">10001</p>
+                        </div>
+                        <div class="mb-4">
+                            <p class="text-sm text-gray-600 font-bold">City:</p>
+                            <p class="text-lg">New York</p>
+                        </div>
+                        <div class="mb-4">
+                            <p class="text-sm text-gray-600 font-bold">State:</p>
+                            <p class="text-lg">New York</p>
+                        </div>
+                        <div class="mb-4">
+                            <p class="text-sm text-gray-600 font-bold">Date of Birth:</p>
+                            <p class="text-lg">January 1, 1990</p>
+                        </div>
+                        <div class="mb-4">
+                            <p class="text-sm text-gray-600 font-bold">Gender:</p>
+                            <p class="text-lg">Male</p>
+                        </div>
+                        <div class="mb-4">
+                            <p class="text-sm text-gray-600 font-bold">Citizenship Status:</p>
+                            <p class="text-lg">US Citizen</p>
+                        </div>
+                        <div class="mb-4">
+                            <p class="text-sm text-gray-600 font-bold">Ethnicity:</p>
+                            <p class="text-lg">White</p>
+                        </div>
+                        <div class="mb-4">
+                            <p class="text-sm text-gray-600 font-bold">Employment Status:</p>
+                            <p class="text-lg">Employed</p>
+                        </div>
+                        <div class="mb-4">
+                            <p class="text-sm text-gray-600 font-bold">Phone Number:</p>
+                            <p class="text-lg">123-456-7890</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Funding Summary -->
+            <div class="bg-white shadow rounded-lg mb-8 overflow-hidden">
+                <div class="px-6 py-4">
+                    <h3 class="text-lg font-bold mb-2">Funding Summary</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="mb-4">
+                            <p class="text-sm text-gray-600 font-bold">Funding Type(s):</p>
+                            <ul class="list-disc list-inside">
+                                <li>Business</li>
+                                <li>Education</li>
+                            </ul>
+                        </div>
+                        <div class="mb-4">
+                            <p class="text-sm text-gray-600 font-bold">Amount Needed:</p>
+                            <p class="text-lg">$50,000</p>
+                        </div>
+                        <div class="mb-4 col-span-2">
+                            <p class="text-sm text-gray-600 font-bold">How Money Will Be Used:</p>
+                            <p class="text-lg">To start a new business venture.</p>
+                        </div>
+                        <div class="mb-4 col-span-2">
+                            <p class="text-sm text-gray-600 font-bold">When Money Is Needed:</p>
+                            <p class="text-lg">Within the next 3 months.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- User Account Info -->
+            <div class="bg-white shadow rounded-lg mb-8 overflow-hidden">
+                <div class="px-6 py-4">
+                    <h3 class="text-lg font-bold mb-2">User Account Info</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="mb-4">
+                            <p class="text-sm text-gray-600 font-bold">Username:</p>
+                            <p class="text-lg">john.doe@gmail.com</p>
+                        </div>
+                        <div class="mb-4">
+                            <p class="text-sm text-gray-600 font-bold">Password:</p>
+                            <p class="text-lg">***It will be given to you on the confirmation page***</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Error message -->
+            <div id="error-message" class="error-message text-center mb-4 hidden">Please fill in all the required fields.</div>
+
+            <!-- Complete Registration Button -->
+            <div class="flex items-center justify-center">
+                <button onclick="validateForm()" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+                    Submit
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function validateForm() {
+            // Perform validation checks
+            const fields = document.querySelectorAll('.bg-white.shadow.rounded-lg .text-lg');
+            let allFieldsFilled = true;
+            fields.forEach(field => {
+                if (field.innerText.trim() === '') {
+                    allFieldsFilled = false;
+                }
+            });
+
+            if (allFieldsFilled) {
+                // If all fields are filled, navigate to the next page
+                window.location.href = 'Confirmation.html';
+            } else {
+                // If not all fields are filled, show an error message
+                document.getElementById('error-message').classList.remove('hidden');
+            }
+        }
+    </script>
+</body>
+
+</html>
